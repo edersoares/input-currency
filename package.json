@@ -1,6 +1,6 @@
 {
   "name": "input-currency",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple currency input for Vue.js",
   "main": "dist/currency.umd.js",
   "module": "dist/currency.esm.js",
@@ -10,9 +10,9 @@
   },
   "scripts": {
     "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
-    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/my-component.umd.js",
-    "build:es": "rollup --config build/rollup.config.js --format es --file dist/my-component.esm.js",
-    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/my-component.min.js",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/currency.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/currency.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/currency.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eder Soares <edersoares@me.com>",
