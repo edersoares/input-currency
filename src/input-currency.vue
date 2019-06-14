@@ -6,7 +6,7 @@
   import { Money } from 'v-money';
 
   export default {
-    name: 'currency',
+    name: 'input-currency',
     components: { Money },
     props: {
       value: {

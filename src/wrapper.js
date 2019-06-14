@@ -1,5 +1,5 @@
 // Importa o componente
-import currency from './currency.vue';
+import currency from './input-currency.vue';
 
 // Declara a função de instalação executada pelo Vue.use()
 export function install(Vue) {
